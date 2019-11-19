@@ -1,21 +1,21 @@
 def sums():
    
-  #TODO: Initialize a variable called first_sum and store the sum of 
+  # Initialize a variable called first_sum and store the sum of 
   # 2 and 2
   first_sum = 2 + 2
-  #TODO: Store to first_sum the value of first_sum times 10
+  # Store to first_sum the value of first_sum times 10
   first_sum = first_sum * 10
-  #TODO: Initialize a variable called secret and assign it the value 
+  #Initialize a variable called secret and assign it the value 
   # of first_sum plus 2
   secret = first_sum + 2
   return secret
 
 def string_manip(first_name):
 
-   # TODO: Initialize a variable called name and assign it the 
+   # : Initialize a variable called name and assign it the 
    # parameter.
-   name=first_name
-   # TODO: Use builtin string functions and slices to replace None with 
+    name = first_name
+   # : Use builtin string functions and slices to replace None with 
    # the appropriate manipulation of your name. I've done the first one.
    all_caps = name.upper()
    all_lowercase = name.lower()
@@ -26,7 +26,7 @@ def string_manip(first_name):
 
 def greeter_bot():
 
-   # TODO: Use the input() function to prompt the user for their name.
+   #  Use the input() function to prompt the user for their name.
    # Then assign the value to a variable called name and print a greeting.
    # I have started it for you, but you need to modify the input and 
    # print functions.
@@ -36,7 +36,7 @@ def greeter_bot():
 
 def temp_calculator():
 
-   # TODO: Write code that prompts the user for a temperature in degrees
+   #  Write code that prompts the user for a temperature in degrees
    # celsius and prints the equivalent temperature in degrees fahrenheit.
    # The formula is C = (F - 32) * (5/9). 
    c = float(input('what is the temperature?'))
@@ -45,7 +45,7 @@ def temp_calculator():
 
 def equitable_bill_splitter():
    
-   # TODO: Read the following code and add comments to each line explaining what
+   # Read the following code and add comments to each line explaining what
    # it does. To write a comment, begin the line with an octothorpe (hashtag, #)
    
    # propmts the user how many people are paying?and saves the result in the people variable
